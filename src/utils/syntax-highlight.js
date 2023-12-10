@@ -24,6 +24,7 @@ const Languages = {
   diff: ['patch'],
   http: ['https'],
   java: ['jsp'],
+  ini: ['toml'],
   javascript: ['js', 'jsx', 'mjs', 'cjs'],
   json: [],
   llvm: [],
@@ -37,6 +38,7 @@ const Languages = {
   shell: ['console', 'shellsession'],
   swift: [],
   xml: ['html', 'xhtml', 'rss', 'atom', 'xjb', 'xsd', 'xsl', 'plist', 'wsf', 'svg'],
+  yaml: ['yml'],
   // load more languages from the environment
   ...(
     process.env.VUE_APP_HLJS_LANGUAGES
